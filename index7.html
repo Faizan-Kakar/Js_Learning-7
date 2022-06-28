@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js_Learning-7</title>
+</head>
+<body>
+
+      <!-- //  \\------------------------------------------------------//  // -->
+
+      <!-- Practicing the varialbles -->
+
+    <div id="demo"></div>
+
+    <script>
+
+        let a = "faianKhan", b = 3, c=5, z= a+b+c;
+         a = "faiank";
+        document.getElementById("demo").innerHTML = z;
+
+        // we can add in the const array but can't redeclarr it
+
+        const array = [2,4,5,6,6,7,7]
+        array.push("faizan khan")
+        console.log(array);
+
+        // Javascript DataTypes
+
+        // Primitive Datatypes
+        var nullVar = null
+        var undefined = undefined;
+        var d = 10, e = 10.5, f= 12e5; //number
+        var g = "10", h= "faizan" ; //String
+        
+        // using "typeof" a built-in function to fing the type of varialble
+        
+        console.log(typeof d,typeof a,typeof e,typeof nullVar, undefined);
+        
+        //Referrence Datatypes
+        
+        var i = [1,2,3,4,5] //array an refference datatype
+        const j = {firstName:"faian", lastName: "Khan"};// object an refference datatype
+        var k = function faian() { }
+        var l = new String('faizan khan')
+            
+        console.log(typeof i,typeof j);
+        console.log(typeof k);
+        console.log(typeof l);
+
+        // Comparing two object always return false
+
+        var m = new String('faHzan')
+        var n = new String('faizan')
+        console.log((m==n));
+
+        // Strings and its methods and properties
+
+        var o = "Muhammad Faizan Khan"
+        console.log(o.charAt(4));
+        console.log(o.charCodeAt(2));
+        
+       function faizan(age, gender, grade ) {
+             
+            this.age = age;
+            this.gender = gend
+            this.grade = "A"  
+        }
+        faizan.prototype.salar =20000;
+        
+        var faiz =  faizan(19,)
+        lo
+
+    </script>
+</body>
+</html>
